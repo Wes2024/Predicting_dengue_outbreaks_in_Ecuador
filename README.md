@@ -96,10 +96,7 @@ y **tus variables derivadas** (lags, estacionalidad, transformaciones).
 ## Citation / Citación
 
 ### EN (APA)
-Salinas, W. (2025). *Predicting dengue outbreaks in Ecuador (2019–2025)*. GitHub. https://github.com/usuario/Predicting_dengue_outbreaks_in_Ecuador
-
-### ES (APA)
-Salinas, W. (2025). *Predicción de brotes de dengue en Ecuador (2019–2025)*. GitHub. https://github.com/usuario/Predicting_dengue_outbreaks_in_Ecuador
+Salinas, W. (2025). *Predicting dengue outbreaks in Ecuador (2019–2025)*. GitHub. https://github.com/Wes2024/Predicting_dengue_outbreaks_in_Ecuador.git
 
 ### BibTeX
 ```bibtex
