@@ -89,7 +89,7 @@ y **tus variables derivadas** (lags, estacionalidad, transformaciones).
 
 ## Colaboradores / Collaborators
 - Weslei Jahir Salinas Morán — Desarrollo del código y análisis de datos.
-- Italo Alex Guamán Conforme — Apoyo en diseño del modelo y validación de resultados.
+- Italo Alex Guamán Conforme — Desarrollo del código y validación de resultados.
 
 ---
 ## License / Licencia
