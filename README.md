@@ -87,6 +87,11 @@ y **tus variables derivadas** (lags, estacionalidad, transformaciones).
 
 ---
 
+## Colaboradores / Collaborators
+- Weslei Jahir Salinas Morán — Desarrollo del código y análisis de datos.
+- Italo Alex Guamán Conforme — Apoyo en diseño del modelo y validación de resultados.
+
+---
 ## License / Licencia
 **Code / Código:** MIT (see `LICENSE`).  
 **Data / Datos:** Original datasets from GEE & providers keep their own licenses. Do **not** redistribute outside allowed terms.
