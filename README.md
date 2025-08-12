@@ -58,20 +58,6 @@ python scripts/merge_fill_gee_vars.py --input data/dataset_base.csv --gee gee_va
 
 ## Variables
 
-### EN — You may upload (non-GEE):
-`anio`, `semana_epi`, `codigo_provincia`, `provincia`,  
-`casos_sin_alarma`, `casos_con_alarma`, `casos_graves`, `casos_dengue_total`,  
-`hospitalizados`, `fallecidos`, `tasa_incidencia_dengue_x100k`,  
-`poblacion_total`, `densidad_poblacional_km2`, `indice_urbanismo`, `acceso_agua_potable`, `escasez_agua`,  
-and **your derived features** (lags, seasonality, transforms).
-
-### ES — Puedes subir (no-GEE):
-`anio`, `semana_epi`, `codigo_provincia`, `provincia`,  
-`casos_sin_alarma`, `casos_con_alarma`, `casos_graves`, `casos_dengue_total`,  
-`hospitalizados`, `fallecidos`, `tasa_incidencia_dengue_x100k`,  
-`poblacion_total`, `densidad_poblacional_km2`, `indice_urbanismo`, `acceso_agua_potable`, `escasez_agua`,  
-y **tus variables derivadas** (lags, estacionalidad, transformaciones).
-
 ### EN/ES — GEE variables (do **not** redistribute; fill via the scripts):
 `temp_max_c`, `temp_min_c`, `temp_mean_c`, `rango_diurno_temp_dtr`,
 `humedad_relativa_pct`, `precipitacion_mm`, `precip_mm`, `spec_hum_gkg`, `dewpt_c`,
@@ -82,8 +68,8 @@ y **tus variables derivadas** (lags, estacionalidad, transformaciones).
 
 
 ## Credits & Data Use / Créditos y uso de datos
-**EN:** Climate & environmental variables are obtained via **Google Earth Engine (GEE)** from providers such as NASA (MODIS, SMAP), ECMWF (ERA5-Land), CHIRPS, and USGS (SRTM). Epidemiological data from the **Ministerio de Salud Pública del Ecuador (MSP)**. Demographic/socioeconomic data from **INEC**. Original datasets have their own licenses and **are not redistributed** here.  
-**ES:** Las variables climáticas y ambientales se obtienen vía **Google Earth Engine (GEE)** de proveedores como NASA (MODIS, SMAP), ECMWF (ERA5-Land), CHIRPS y USGS (SRTM). Datos epidemiológicos del **MSP**. Datos demográficos/socioeconómicos del **INEC**. Los datos originales tienen sus propias licencias y **no se redistribuyen** aquí.
+**EN:** Climate & environmental variables are obtained via **Google Earth Engine (GEE)** from providers such as NASA (MODIS, SMAP), ECMWF (ERA5-Land), CHIRPS, and USGS (SRTM). Epidemiological data from the **Ministerio de Salud Pública del Ecuador (MSP)**. Demographic/socioeconomic data from **INEC** and dengue cases in https://www.salud.gob.ec/gacetas-vectoriales/. Original datasets have their own licenses and **are not redistributed** here.  
+**ES:** Las variables climáticas y ambientales se obtienen vía **Google Earth Engine (GEE)** de proveedores como NASA (MODIS, SMAP), ECMWF (ERA5-Land), CHIRPS y USGS (SRTM). Datos epidemiológicos del **MSP**. Datos demográficos/socioeconómicos del **INEC** y casos de degue en Ecuador: https://www.salud.gob.ec/gacetas-vectoriales/. Los datos originales tienen sus propias licencias y **no se redistribuyen** aquí.
 
 ---
 
@@ -101,22 +87,18 @@ y **tus variables derivadas** (lags, estacionalidad, transformaciones).
 ## Citation / Citación
 
 ### EN (APA)
-Salinas, W. (2025). *Predicting dengue outbreaks in Ecuador (2019–2025)*. GitHub. https://github.com/Wes2024/Predicting_dengue_outbreaks_in_Ecuador.git
+Salinas Morán, W. J., & Guamán Conforme, I. A. (2025).*Predicting dengue outbreaks in Ecuador (2019–2025)*. GitHub. https://github.com/Wes2024/Predicting_dengue_outbreaks_in_Ecuador.git
 
 ### BibTeX
 ```bibtex
 @misc{Predicting_dengue_outbreaks_in_Ecuador,
-  author    = {Salinas, Weslei},
+  author    = {Salinas Morán, Weslei Jahir and Guamán Conforme, Italo Alex},,
   title     = {Predicting dengue outbreaks in Ecuador (2019--2025)},
   year      = {2025},
   publisher = {GitHub},
   howpublished = {\url{https://github.com/usuario/Predicting_dengue_outbreaks_in_Ecuador}}
 }
 ```
-
-> Tip: connect the repo to **Zenodo** to mint a DOI for releases. Then update this section with the DOI.
-
----
 
 ## Technical Diagram (optional) / Diagrama técnico (opcional)
 ![Technical data flow](img/diagram_technical.png)
